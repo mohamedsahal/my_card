@@ -30,11 +30,15 @@ class Home extends StatelessWidget {
               style: GoogleFonts.pacifico(fontSize: 22.0, color: Colors.white),
             ),
             Text(
-              'Mobile Developer',
+              'Flutter Developer',
               style: TextStyle(letterSpacing: 3.0),
             ),
             SizedBox(
-              height: 12.0,
+              height: 20.0,
+              width: 150,
+              child: Divider(
+                color: Colors.white,
+              ),
             ),
             Card(
               margin: EdgeInsets.only(left: 22.0, right: 22.0),
